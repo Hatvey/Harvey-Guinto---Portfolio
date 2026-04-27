@@ -283,3 +283,19 @@ html {
 :target {
     scroll-margin-top: 100px;
 }
+
+.video-grid{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+.video-grid video{
+    width:280px;
+    height:500px;
+    object-fit:cover;
+    border-radius:15px;
+}
